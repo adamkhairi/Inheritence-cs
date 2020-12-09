@@ -8,9 +8,7 @@ namespace Inheritence_cs
 
         public FrenchHuman(string name, int age, string email, bool isHuman) : base(name, age, email)
         {
-            this.name = name;
-            this.email = email;
-            this.age = age;
+         
             this.isHuman = isHuman;
         }
 
